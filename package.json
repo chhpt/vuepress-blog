@@ -3,7 +3,7 @@
     "description": "Personal blog site",
     "version": "0.0.1",
     "license": "",
-    "url": "https://github.com/chhpt",
+    "url": "https://github.com/chhpt/devtoken-blog",
     "scripts": {
         "new": "node new.js",
         "dev": "vuepress dev src",
