@@ -1,0 +1,21 @@
+{
+    "name": "detoken-blog",
+    "description": "Personal blog site",
+    "version": "0.0.1",
+    "license": "",
+    "url": "https://github.com/chhpt",
+    "scripts": {
+        "new": "node new.js",
+        "dev": "vuepress dev src",
+        "build": "vuepress build src"
+    },
+    "author": "cwuyiqing@gmail.com",
+    "dependencies": {},
+    "devDependencies": {
+        "babel-eslint": "^10.0.1",
+        "eslint": "^5.16.0",
+        "eslint-config-alloy": "^1.4.2",
+        "eslint-plugin-vue": "^5.2.2",
+        "vuepress": "1.0.0-alpha.44"
+    }
+}
