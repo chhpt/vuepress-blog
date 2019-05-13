@@ -19,7 +19,6 @@
         </Sidebar>
 
         <div class="custom-layout"
-             h
              v-if="$page.frontmatter.layout">
             <component :is="$page.frontmatter.layout" />
         </div>

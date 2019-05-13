@@ -287,6 +287,7 @@
         padding-left: 0;
         padding-right: 0;
         overflow: auto;
+        margin-bottom: 3rem;
 
         .edit-link {
             display: inline-block;
@@ -299,7 +300,7 @@
 
         .last-updated {
             float: right;
-            font-size: 0.9em;
+            font-size: 1em;
 
             .prefix {
                 font-weight: 500;
@@ -341,16 +342,8 @@
             }
 
             .last-updated {
-                font-size: 0.8em;
-                float: none;
-                text-align: left;
+                padding: 1.5rem;
             }
-        }
-    }
-
-    @media (max-width: $MQMobileNarrow) {
-        .blog-title {
-            font-size: 2.4rem;
         }
     }
 </style>
