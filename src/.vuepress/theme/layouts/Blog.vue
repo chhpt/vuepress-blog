@@ -254,10 +254,10 @@
         margin-bottom: -4rem;
 
         .tag-list__item {
-            font-size: 0.9rem;
-            padding: 5px;
+            font-size: 0.8rem;
+            padding: 3px;
             border: 1px solid #3780f7;
-            border-radius: 3px;
+            border-radius: 5px;
             color: #3780f7;
 
             &:not(:first-child) {
@@ -266,7 +266,7 @@
         }
 
         .time {
-            margin-left: 30px;
+            margin-left: 10px;
         }
     }
 

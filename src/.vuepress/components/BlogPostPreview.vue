@@ -1,12 +1,11 @@
 <template>
     <section class="blog-post">
-        <h2 class="blog-post__title">
+        <div class="blog-post__title">
             <a :href="path"
-               class="blog-post__link"
-               target="_blank">
+               class="blog-post__link">
                 {{ title }}
             </a>
-        </h2>
+        </div>
         <p v-if="excerpt"
            class="blog-post__excerpt">
             {{ excerpt }}
@@ -68,7 +67,8 @@
     primary-color = #22AAFF;
 
     .blog-post {
-        margin-bottom: 2.5rem;
+        padding-bottom: 2.5rem;
+        border-bottom: #EBF2F6 1px solid;
     }
 
     .blog-post__info {
@@ -93,6 +93,10 @@
         font-weight: 700;
         margin-top: 0.5rem;
         margin-bottom: 0.75rem;
+
+        a:hover {
+            text-decoration: none;
+        }
     }
 
     .button {
@@ -108,10 +112,10 @@
     }
 
     .tag-list__item {
-        font-size: 0.9rem;
-        padding: 5px;
+        font-size: 0.8rem;
+        padding: 3px;
         border: 1px solid #3780f7;
-        border-radius: 3px;
+        border-radius: 5px;
         color: #3780f7;
 
         &:not(:first-child) {
@@ -120,6 +124,6 @@
     }
 
     .post-time {
-        margin-left: 20px;
+        margin-left: 10px;
     }
 </style>

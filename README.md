@@ -1,3 +1,3 @@
-# devtoken 探索未来
+# VuePress Blog
 
-个人博客
+基于 VuePress 实现的博客
